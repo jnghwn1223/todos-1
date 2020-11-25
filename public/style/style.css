@@ -19,9 +19,21 @@ html {
   background-color: bisque;
   padding: 10px 0;
 }
+.status-container {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: space-around;
+  font-size: 2rem;
+}
+.status-item {
+  cursor: pointer;
+}
+.selected.status-item {
+  background-color: yellowgreen;
+  border-radius: 20px;
+}
 .todos {
   font-size: 2rem;
-  padding-top: 20px;
 }
 .todos-item {
   display: flex;
