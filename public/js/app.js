@@ -30,7 +30,7 @@ const render = () => _todos.map(todo => `<li class="todos-item">
 
 const generateNewId = () => { // 새로운 id값을 생성해주는 함수
   const todosId = todos.map(todo => todo.id);
-  return todos.length ? Math.max(...todosId) + 1 : 0;
+  return todos.length ? Math.max(...todosId) + 1 : 0;  //math.max안에 ...todosId를 하면 배열의 대괄호를 빼줌
 };
 
 const updateTodos = () => {
@@ -54,7 +54,7 @@ $inputTodos.onkeyup = e => {
   $inputTodos.value = '';
 };
 
-$btnTodos.onclick = () => {
+$btnTodos.onclick = () => {  //새로운 todo 추가하기
   if (!$inputTodos.value) return;
 
   updateTodos();
