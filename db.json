@@ -1,19 +1,7 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "todos": [
+    { "id": 1, "content": "HTML", "completed": false },
+    { "id": 2, "content": "CSS", "completed": true },
+    { "id": 3, "content": "Javascript", "completed": false }
+  ]
 }

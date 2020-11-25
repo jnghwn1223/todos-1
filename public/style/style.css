@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+html {
+  font-size: 10px;
+  font-family: 'Nerko One';
+  font-style: normal;
+}
+.container {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+}
+.heading {
+  background-color: pink;
+  padding: 10px 0;
+  font-size: 4rem;
+}
+.input-container {
+  background-color: bisque;
+  padding: 10px 0;
+}
+.todos {
+  font-size: 2rem;
+  padding-top: 20px;
+}
+.todos-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  background-color: skyblue;
+}

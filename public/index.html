@@ -4,9 +4,37 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
+  <link rel="stylesheet" href="./style/reset.css" />  
   <link rel="stylesheet" href="./style/style.css" />
 </head>
 <body>
-  
+  <div class="container">
+
+    <h1 class="heading">Todos</h1>
+
+    <section class="input-container">
+      <input type="text" class="input-todos" />
+      <button class="btn-todos">추가</button>
+    </section>
+
+    <ul class="todos">
+      <li class="todos-item">
+        <input type="checkbox" class="todos-completed" />
+        <span class="todos-content">HTML</span>
+        <button class="todos-remove">x</button>
+      </li>
+      <li class="todos-item">
+        <input type="checkbox" class="todos-completed" />
+        <span class="todos-content">CSS</span>
+        <button class="todos-remove">x</button>
+      </li>
+      <li class="todos-item">
+        <input type="checkbox" class="todos-completed" />
+        <span class="todos-content">Javascript</span>
+        <button class="todos-remove">x</button>
+      </li>
+    </ul>
+
+  </div>
 </body>
 </html>
